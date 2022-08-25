@@ -9,11 +9,11 @@ on:
       - README.md
       - CONTRIBUTING.md
       - CODING_STANDARDS.md
-    branches:
-      - PHP-7.4
-      - PHP-8.0
-      - PHP-8.1
-      - master
+    # branches:
+    #   - PHP-7.4
+    #   - PHP-8.0
+    #   - PHP-8.1
+    #   - master
   pull_request:
     branches:
       - '**'
